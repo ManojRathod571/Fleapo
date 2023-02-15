@@ -44,10 +44,10 @@ const Header = () => {
   return (
     <>
       <Flex
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         h="61px"
         bg="#29263B"
-        px="50px"
+        px={{ md: "35px", lg: "50px" }}
         justify="space-between"
         align="center"
         position="sticky"
@@ -107,7 +107,7 @@ const Header = () => {
       {/* for mobile */}
 
       <Flex
-        display={{ base: "flex", md: "none" }}
+        display={{ base: "flex", lg: "none" }}
         h="61px"
         bg="#29263B"
         px="10px"
