@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.Tags:nth-child(5) > .text {
+  color: #eb7c69;
+}
