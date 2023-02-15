@@ -7,12 +7,17 @@ const DateAndTime = ({ text }) => {
       justify="center"
       align="center"
       bg="#1F1D2B"
-      w="40px"
-      h="40px"
+      w={{ base: "30px", md: "40px" }}
+      h={{ base: "30px", md: "40px" }}
       borderRadius="6px"
       mr="10px"
     >
-      <Text fontFamily="'Sora'" fontSize="22px" fontWeight="600" color="white">
+      <Text
+        fontFamily="'Sora'"
+        fontSize={{ base: "15px", md: "22px" }}
+        fontWeight="600"
+        color="white"
+      >
         {text}
       </Text>
     </Flex>

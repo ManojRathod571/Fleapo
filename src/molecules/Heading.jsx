@@ -6,8 +6,8 @@ const Heading = ({ heading, textColor }) => {
     <Text
       fontFamily="'Sora'"
       fontWeight="800"
-      fontSize="48px"
-      lineHeight="50px"
+      fontSize={{ base: "40px", md: "30px", lg: "48px" }}
+      lineHeight={{ md: "40px", lg: "50px" }}
       textTransform="uppercase"
       mixBlendMode="normal"
       color={textColor}

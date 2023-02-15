@@ -5,7 +5,8 @@ import Gift from "../images/giftOne.png";
 
 const Footer = () => {
   return (
-    <Flex
+    <Box
+      display={{ base: "none", md: "none", lg: "flex" }}
       bg="#EB7C69"
       h="71px"
       w="100%"
@@ -50,7 +51,7 @@ const Footer = () => {
       >
         Yes! I want to get it now!
       </Button>
-    </Flex>
+    </Box>
   );
 };
 

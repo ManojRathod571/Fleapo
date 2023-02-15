@@ -8,7 +8,7 @@ const Tag = ({ tag }) => {
         className="text"
         fontFamily="Inter"
         fontWeight="500"
-        fontSize="16px"
+        fontSize={{ base: "14px", lg: "16px" }}
         lineHeight="19px"
         letterSpacing="0.05em"
         textTransform="uppercase"
